@@ -23,7 +23,7 @@ The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command 
 ## Step 4 - Edit the code file to fix the failing test
 Keys pressed: `<Ctrl-R><nano><Enter>` `<Ctrl-O><Enter><Ctrl-X>`
 
-The `nano ListExamples.java` command was used by me before so I simply used Ctrl-R to find the command and entered into the editing screen. As I already knew where the errors was located, I simply used Ctrl-F and typed `index1` to find the bug.
+The `nano ListExamples.java` command was used by me before so I simply used Ctrl-R to find the command and entered into the editing screen. As I already knew where the errors was located, I simply used Ctrl-W and typed `index1 += 1` to find the bug.
 After I found the error, which was changing an index1 to index2, I pressed Ctrl-O then Enter to save the change and pressed Ctrl-X to exit out of the screen.
 
 ![Image](Edit.png)
